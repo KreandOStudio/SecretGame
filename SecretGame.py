@@ -5,7 +5,7 @@ secret = 11
 
 print "Bienvenidos a Secret Game!"
 
-guess = int(raw_input("Introduzca el número a adivinar, ¿lo adivinarás? Tiene que ser del 0 al 20. ¡ADELANTE!: "))
+guess = int(raw_input("Introduzca el número a adivinar, ¿lo adivinarás? Tiene que ser del 1 al 20. ¡ADELANTE!: "))
 
 if guess <= 20:
     if guess == secret:
